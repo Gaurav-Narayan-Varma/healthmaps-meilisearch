@@ -1,0 +1,4 @@
+client/meilisearch filter=lfs diff=lfs merge=lfs -text
+client/data.ms/indexes/18a4b1f0-393d-434d-9129-9f15c834fb61/data.mdb filter=lfs diff=lfs merge=lfs -text
+data.ms/indexes/18a4b1f0-393d-434d-9129-9f15c834fb61/data.mdb filter=lfs diff=lfs merge=lfs -text
+meilisearch filter=lfs diff=lfs merge=lfs -text
