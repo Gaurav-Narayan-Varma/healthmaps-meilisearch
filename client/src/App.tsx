@@ -9,7 +9,7 @@ const searchClient = instantMeiliSearch(
 
 function App() {
   return (
-    <InstantSearch indexName="movies" searchClient={searchClient}>
+    <InstantSearch indexName="meteorites" searchClient={searchClient}>
       <SearchBox />
       <Hits hitComponent={Hit} />
       <Configure hitsPerPage={10} />
@@ -18,7 +18,7 @@ function App() {
 }
 
 const Hit = (props: any) => (
-  <Highlight attribute="title" hit={props.hit} />
+  <Highlight attribute="name" hit={props.hit} />
 );
 
 export default App;
