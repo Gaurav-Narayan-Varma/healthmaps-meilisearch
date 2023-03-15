@@ -17,5 +17,5 @@ app.listen(1337, () => {
 
 app.get('/', (req, res) => {
   res.header("Content-Type",'application/json');
-  res.send(JSON.stringify(meteorites));
+  res.send(meteorites);
 });
