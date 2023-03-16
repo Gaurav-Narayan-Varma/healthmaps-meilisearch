@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors'
-import meteorites from './meteorites.json' assert { type: "json" }
+import meteorites from '../meteorites.json' assert { type: "json" }
 
 const app = express();
 
