@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import meteorites from "../meteorites.json" assert { type: "json" };
 import axios from "axios";
+import csv from "csvtojson";
 
 const app = express();
 
@@ -23,9 +24,25 @@ app.get("/", (req, res) => {
   res.send(meteorites);
 });
 
+// fleek back-end interview
 app.get("/csv", (req, res) => {
   axios
     .get("https://sample-videos.com/csv/Sample-Spreadsheet-100-rows.csv")
-    .then((data) => console.log(data.data))
+    .then((data) => {
+      csv({
+        noheader: true,
+        headers: ["index", "Product(s)", ""],
+        // output: "csv",
+      })
+        .fromString(data.data)
+        .then((data) => {
+          let page = req.query.page;
+          let limit = req.query.limit;
+
+          // data = data.splice(0, limit)
+          res.header("Content-Type", "application/json");
+          res.send(data);
+        });
+    })
     .catch((err) => console.log(err));
 });
