@@ -23,6 +23,9 @@ app.get("/", (req, res) => {
   res.send(meteorites);
 });
 
-// fetch("https://sample-videos.com/csv/Sample-Spreadsheet-100-rows.csv").then(
-//   (data) => console.log(data)
-// );
+app.get("/csv", (req, res) => {
+  axios
+    .get("https://sample-videos.com/csv/Sample-Spreadsheet-100-rows.csv")
+    .then((data) => console.log(data.data))
+    .catch((err) => console.log(err));
+});
