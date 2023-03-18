@@ -1,18 +1,16 @@
-import ReactDOM from "react-dom";
-import { useState } from "react";
+import { instantMeiliSearch } from "@meilisearch/instant-meilisearch";
 import {
+  Configure,
+  Highlight,
+  Hits,
   InstantSearch,
   SearchBox,
-  Hits,
-  Highlight,
-  Configure,
 } from "react-instantsearch-dom";
-import { instantMeiliSearch } from "@meilisearch/instant-meilisearch";
 
 const searchClient = instantMeiliSearch("http://localhost:7700");
 
 // fetching json from backend and posting to meili instance
-fetch("http://localhost:1337/")
+fetch("http://localhost:1337/meteorites")
   .then((data) => data.json())
   .then((data) => {
     fetch("http://localhost:7700/indexes/meteorites/documents", {
