@@ -31,15 +31,27 @@ app.get("/csv", (req, res) => {
     .then((data) => {
       csv({
         noheader: true,
-        headers: ["index", "Product(s)", ""],
+        headers: [
+          "index",
+          "product(s)",
+          "name",
+          "count",
+          "coordinates",
+          "price",
+          "zipcode",
+          "location",
+          "category",
+          "rating",
+        ],
         // output: "csv",
       })
         .fromString(data.data)
         .then((data) => {
           let page = req.query.page;
-          let limit = req.query.limit;
+          let limit: any = req.query.limit;
 
-          // data = data.splice(0, limit)
+          data = data.splice(0, limit);
+
           res.header("Content-Type", "application/json");
           res.send(data);
         });
