@@ -1,19 +1,15 @@
+import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import cors from "cors";
 import express from "express";
-import meteoritesRouter from "./routes/meteorites.js";
-import customersRouter from "./routes/customers.js";
+import { appRouter } from "./routes/index.js";
 
+// establishing connection and cors
 const app = express();
+// prettier-ignore
+app.listen(1337, () => {console.log("Server started on port 1337")});
+app.use(cors({ origin: "http://127.0.0.1:5173" }));
 
-app.use(
-  cors({
-    origin: "http://127.0.0.1:5173",
-  })
-);
+// wiring routes
+app.use("/trpc", createExpressMiddleware({ router: appRouter }));
 
-app.listen(1337, () => {
-  console.log("Server started on port 1337");
-});
-
-app.use("/customers", customersRouter);
-app.use("/meteorites", meteoritesRouter);
+export type AppRouter = typeof appRouter;
