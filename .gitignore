@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+client/data.ms/indexes/18a4b1f0-393d-434d-9129-9f15c834fb61/data.mdb
+client/meilisearch
 
 # Editor directories and files
 .vscode/*
