@@ -7,7 +7,7 @@ import {
   InstantSearch,
   SearchBox,
 } from "react-instantsearch-dom";
-import { AppRouter } from "../../server/src/index";
+import { AppRouter } from "../../server/src/api";
 
 // connecting to tRPC
 const client = createTRPCProxyClient<AppRouter>({
