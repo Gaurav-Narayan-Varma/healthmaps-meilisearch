@@ -1,0 +1,92 @@
+[
+  {
+    "title": "What Is a Stroke? | NHLBI, NIH",
+    "id": "1",
+    "link": "https://www.nhlbi.nih.gov/health/stroke#:~:text=A%20stroke%2C%20also%20known%20as,begin%20to%20die%20within%20minutes.",
+    "condition": "stroke",
+    "description": "This article provides information on what a stroke is, the signs and symptoms, the importance of seeking immediate medical attention, and the possible treatments and rehabilitation plans for stroke patients.",
+    "source-specific": "National Institute of Health",
+    "source-broad": "Government"
+  },
+  {
+    "title": "About Stroke",
+    "id": "2",
+    "link": "https://www.stroke.org/en/about-stroke",
+    "condition": "stroke",
+    "description": "This article provides information on stroke, including its definition, causes, types, effects, and prevention. It highlights that stroke is the No. 5 cause of death and a leading cause of disability in the United States, but 80% of strokes are preventable.",
+    "source-specific": "American Stroke Association",
+    "source-broad": "NGO"
+  },
+  {
+    "title": "Stroke: What It Is, Causes, Symptoms, Treatment & Types",
+    "id": "3",
+    "link": "https://my.clevelandclinic.org/health/diseases/5601-stroke",
+    "condition": "stroke",
+    "description": "This article provides detailed information about strokes, including their symptoms, causes, diagnosis, management, and prevention. It also covers the outlook/prognosis and what it's like to live with the condition.",
+    "source-specific": "Cleveland Clinic",
+    "source-broad": "NGO"
+  },
+  {
+    "title": "Stroke: Causes, symptoms, diagnosis, and treatment",
+    "id": "4",
+    "link": "https://www.medicalnewstoday.com/articles/7624",
+    "condition": "stroke",
+    "description": "This article provides an overview of everything related to stroke, including its definition, treatment, prevention, causes, symptoms, and diagnosis. It also discusses the three main types of stroke and the progress made in managing strokes.",
+    "source-specific": "MedicalNewsToday",
+    "source-broad": "News Corporation"
+  },
+  {
+    "title": "Stroke: Symptoms, Causes, Treatment, Types & More",
+    "id": "5",
+    "link": "https://www.healthline.com/health/stroke",
+    "condition": "stroke",
+    "description": "This article provides a comprehensive guide to understanding stroke, including its symptoms, causes, risk factors, complications, and prevention. It also covers diagnosis, stroke tests, treatment options, medications, and stroke recovery. The article emphasizes the importance of recognizing stroke symptoms and seeking prompt medical attention for the best outcome.",
+    "source-specific": "Healthline",
+    "source-broad": "News Corporation"
+  },
+  {
+    "title": "7 things you can do to prevent a stroke",
+    "id": "6",
+    "link": "https://www.health.harvard.edu/womens-health/8-things-you-can-do-to-prevent-a-stroke",
+    "condition": "stroke",
+    "description": "The article discusses seven ways to prevent a stroke, including lowering blood pressure, losing weight, exercising more, drinking alcohol in moderation, treating atrial fibrillation, treating diabetes, and quitting smoking. The article provides specific goals and ways to achieve them for each of the seven steps.",
+    "source-specific": "Harvard Health Publishing - Harvard Medical School",
+    "source-broad": "University"
+  },
+  {
+    "title": "Stroke - Symptoms and causes",
+    "id": "7",
+    "link": "https://www.mayoclinic.org/diseases-conditions/stroke/symptoms-causes/syc-20350113",
+    "condition": "stroke",
+    "description": "This article provides an explanation of what a stroke is, including its causes and effects, as well as the importance of seeking prompt treatment in order to reduce brain damage and other complications.",
+    "source-specific": "Mayo Clinic",
+    "source-broad": "NGO"
+  },
+  {
+    "title": "About Stroke | cdc.gov",
+    "id": "8",
+    "link": "https://www.cdc.gov/stroke/about.htm",
+    "condition": "stroke",
+    "description": "This article explains what a stroke is, the two types of stroke (ischemic and hemorrhagic), and the importance of seeking emergency care for a stroke or transient ischemic attack (TIA), sometimes called a 'mini-stroke'. It also emphasizes the importance of quick treatment for stroke and provides information on the causes and risk factors for stroke.",
+    "source-specific": "Center for Disease Control and Prevention",
+    "source-broad": "Government"
+  },
+  {
+    "title": "Stroke",
+    "id": "9",
+    "link": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/stroke",
+    "condition": "stroke",
+    "description": "This article provides an overview of what a stroke is, the two types of stroke, the causes, and the risk factors that can increase the likelihood of having a stroke.",
+    "source-specific": "John Hopkins Medicine",
+    "source-broad": "University"
+  },
+  {
+    "title": "Stroke | Stanford Health Care",
+    "id": "10",
+    "link": "https://stanfordhealthcare.org/medical-conditions/brain-and-nerves/stroke.html",
+    "condition": "stroke",
+    "description": "This article provides an overview of what a stroke is, its symptoms, when to seek medical help, and risk factors. It also covers arteriovenous malformations (AVMs), their symptoms, and prevention.",
+    "source-specific": "Standford Medicine",
+    "source-broad": "University"
+  }
+]

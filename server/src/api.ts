@@ -7,7 +7,7 @@ import { appRouter } from "./routes/index.js";
 const app = express();
 // prettier-ignore
 app.listen(1337, () => {console.log("Server started on port 1337")});
-app.use(cors({ origin: "http://127.0.0.1:5173" }));
+app.use(cors({ origin: "*" }));
 
 // wiring routes
 app.use("/trpc", createExpressMiddleware({ router: appRouter }));
